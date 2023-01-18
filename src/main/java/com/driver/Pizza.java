@@ -53,10 +53,10 @@ public class Pizza {
         String basePrice = "" , ExCheese = "" , ExTop = "" , take = "", total = "";
 
         if(isVeg) {
-            basePrice =  "Base Price Of The Pizza: "+300;
+            basePrice =  "Base Price Of The Pizza: 300";
             bill = basePrice;
         }else {
-            basePrice ="Base Price Of The Pizza: "+400;
+            basePrice ="Base Price Of The Pizza: 400";
             bill = basePrice;
         }
 
