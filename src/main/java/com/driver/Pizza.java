@@ -82,7 +82,7 @@ public class Pizza {
 
 
         String s = String.valueOf(price);
-        bill += "\n" + "Total Price: "+s;
+        bill += "\n" + "Total Price: "+s + "\n";
 
         return this.bill;
     }
